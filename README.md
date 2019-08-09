@@ -2,21 +2,4 @@
 
 > Example project for @nuxt/axios bug
 
-## Build Setup
-
-``` bash
-# install dependencies
-$ npm run install
-
-# serve with hot reload at localhost:3000
-$ npm run dev
-
-# build for production and launch server
-$ npm run build
-$ npm run start
-
-# generate static project
-$ npm run generate
-```
-
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+To test the bug, launch project and press on the buttons on home page. You will be able to see big red loading bar in every cases, even if `progress` set as `false` in request
